@@ -4,7 +4,7 @@ module Ys
       if %w[ localhost 127.0.0.1 ].include? host
         LocalSession.new
       else
-        RemoteSession.new
+        RemoteSession.new(host)
       end
     end
   end

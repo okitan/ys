@@ -7,8 +7,19 @@ begin
     gem.email = 'okitakunio@gmail.com'
     gem.homepage = 'http://github.com/okitan/ys'
     gem.authors = ['okitan']
-    
-    gem.add_development_dependency 'rspec', '>= 1.3.0'
+
+    [
+      [ 'net-ssh', '>= 2.0.20' ],
+    ].each do |g, v|
+      gem.add_dependency g, v
+    end
+      
+    [
+      [ 'rr',    '>= 1.0.9' ],
+      [ 'rspec', '>= 1.3.0' ],
+    ].each do |g, v|
+      gem.add_development_dependency g, v
+    end
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

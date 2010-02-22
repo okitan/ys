@@ -3,5 +3,6 @@ module Ys
   autoload :LocalSession,  'ys/local_session'
   autoload :RemoteSession, 'ys/remote_session'
 
-  autoload :ShHelper, 'ys/sh_helper'
+  autoload :ShHelper,  'ys/sh_helper'
+  autoload :SSHHelper, 'ys/ssh_helper'
 end
