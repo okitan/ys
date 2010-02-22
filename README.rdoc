@@ -1,6 +1,6 @@
 = ys
 
-Description goes here.
+you can easily use both ssh and sh
 
 == Note on Patches/Pull Requests
  

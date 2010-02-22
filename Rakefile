@@ -8,7 +8,7 @@ begin
     gem.homepage = 'http://github.com/okitan/ys'
     gem.authors = ['okitan']
     
-    gem.add_development_dependency 'rspec', '>= 1.2.9'
+    gem.add_development_dependency 'rspec', '>= 1.3.0'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
